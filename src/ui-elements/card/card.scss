@@ -1,0 +1,43 @@
+.card {
+  //to be commented
+  margin: 100px;
+
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 20px;
+  width: 18%;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .title-row {
+    display: flex;
+
+    .status {
+    }
+
+    .title {
+    }
+  }
+
+  .tag-row {
+    display: flex;
+    align-items: center;
+
+    .priority {
+      height: 15px;
+      object-fit: cover;
+      border: grey 1px solid;
+      border-radius: 5px;
+      padding: 3px;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+}
