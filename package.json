@@ -1,6 +1,5 @@
 {
-  "name": "quicksell-task-manager",
-  "homepage": "https://aman123424.github.io/quicksell-task-manager",
+  "name": "Kanban-Board-Application",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
