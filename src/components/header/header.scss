@@ -1,0 +1,26 @@
+.Header{
+    background-color: white;
+    padding: 20px 10px;
+
+    
+    .menu-toggle{
+        font-size: larger;
+        border: 1px solid black;
+        width:80px;
+        text-align: center;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border: 1px solid black;
+        height: 60px;
+        padding: 10px;
+        margin-top: 10px;
+        position: absolute;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(81, 80, 80, 0.5);
+        margin-right: 20px;
+    }
+}
