@@ -1,13 +1,26 @@
 {
   "files": {
-    "main.css": "/QuickSell-Kanban-Board-Application/static/css/main.c3e334d6.css",
-    "main.js": "/QuickSell-Kanban-Board-Application/static/js/main.eb9914b8.js",
+    "main.css": "/QuickSell-Kanban-Board-Application/static/css/main.c5527aef.css",
+    "main.js": "/QuickSell-Kanban-Board-Application/static/js/main.6e8afa1a.js",
+    "static/media/Display.svg": "/QuickSell-Kanban-Board-Application/static/media/Display.c0a6c76d7cf14c8e9cbdcbfa6be780c8.svg",
+    "static/media/Done.svg": "/QuickSell-Kanban-Board-Application/static/media/Done.a4a61464ad446ebac9974307c8205afa.svg",
+    "static/media/Backlog.svg": "/QuickSell-Kanban-Board-Application/static/media/Backlog.e9533901939960298509fe1d121e44b3.svg",
+    "static/media/Medium.svg": "/QuickSell-Kanban-Board-Application/static/media/Medium.32ac4014881a5ea774d64db17e4780a0.svg",
+    "static/media/Dancelled.svg": "/QuickSell-Kanban-Board-Application/static/media/Dancelled.75306b7553e9c07c6a5fe569cfeeec71.svg",
+    "static/media/DownArrow.svg": "/QuickSell-Kanban-Board-Application/static/media/DownArrow.69e68b70978ee3940da47f57a3ab99fb.svg",
+    "static/media/Progress.svg": "/QuickSell-Kanban-Board-Application/static/media/Progress.f4f1257f3f05612e5e06dff99e6c91b5.svg",
     "index.html": "/QuickSell-Kanban-Board-Application/index.html",
-    "main.c3e334d6.css.map": "/QuickSell-Kanban-Board-Application/static/css/main.c3e334d6.css.map",
-    "main.eb9914b8.js.map": "/QuickSell-Kanban-Board-Application/static/js/main.eb9914b8.js.map"
+    "static/media/High.svg": "/QuickSell-Kanban-Board-Application/static/media/High.cbc74b70bb35c6d9e87cec05c3806121.svg",
+    "static/media/Low.svg": "/QuickSell-Kanban-Board-Application/static/media/Low.059f771949c7f79dd0d8ce7fade87eea.svg",
+    "static/media/Todo.svg": "/QuickSell-Kanban-Board-Application/static/media/Todo.11009935cc803685cf6e87b4de069686.svg",
+    "static/media/More.svg": "/QuickSell-Kanban-Board-Application/static/media/More.2995edf917f1595b1463dc68176e0e9a.svg",
+    "static/media/Urgent.svg": "/QuickSell-Kanban-Board-Application/static/media/Urgent.c8dee2626224684986092dc53c2643c3.svg",
+    "static/media/Plus.svg": "/QuickSell-Kanban-Board-Application/static/media/Plus.c66cf606633a02f86ad90a5fa85a1fdb.svg",
+    "main.c5527aef.css.map": "/QuickSell-Kanban-Board-Application/static/css/main.c5527aef.css.map",
+    "main.6e8afa1a.js.map": "/QuickSell-Kanban-Board-Application/static/js/main.6e8afa1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.c3e334d6.css",
-    "static/js/main.eb9914b8.js"
+    "static/css/main.c5527aef.css",
+    "static/js/main.6e8afa1a.js"
   ]
 }
