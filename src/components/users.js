@@ -1,6 +1,6 @@
 import React from "react";
 import "./group.scss";
-import GroupContainer from "./groupContainer/groupContainer";
+import Column from "./column/column";
 
 function GroupbyUsers({ ticketData = [], orderby, userData = [] }) {
   function ticketsbyUser({ userid, userName }) {
@@ -27,7 +27,7 @@ function GroupbyUsers({ ticketData = [], orderby, userData = [] }) {
       usertickets.sort((a, b) => a.title.localeCompare(b.title));
     }
     return (
-      <GroupContainer Loading={true} list={usertickets} title={userName} />
+      <Column groupBy={"users"} Loading={true} list={usertickets} title={userName} />
     );
   }
 

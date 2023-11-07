@@ -91,7 +91,7 @@ function App() {
       />
 
       {ticketData === "NO" ? (
-        <div>Please Wait</div>
+        <div>Loading ...</div>
       ) : Groupby === "priority" ? (
         <GroupbyPriority orderby={Orderby} ticketData={ticketData} />
       ) : Groupby === "users" ? (

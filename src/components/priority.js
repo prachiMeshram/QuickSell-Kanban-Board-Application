@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from "react";
 import Card from "../ui-elements/card/card";
 import './group.scss'
-import GroupContainer from "./groupContainer/groupContainer";
+import Column from "./column/column";
 
 
 
@@ -66,11 +66,11 @@ function GroupbyPriority({ticketData=[],orderby}){
 
     return(
         <div className="Groups-Container">
-            <GroupContainer Loading={Loading} list={Priority4} title={"Urgent"}/>
-            <GroupContainer Loading={Loading} list={Priority3} title={"High"}/>
-            <GroupContainer Loading={Loading} list={Priority2} title={"Medium"}/>
-            <GroupContainer Loading={Loading} list={Priority1} title={"Low"}/>
-            <GroupContainer Loading={Loading} list={Priority0} title={"No Priority"}/>
+            <Column Loading={Loading} list={Priority4} title={"Urgent"} groupBy={"priority"}/>
+            <Column Loading={Loading} list={Priority3} title={"High"} groupBy={"priority"}/>
+            <Column Loading={Loading} list={Priority2} title={"Medium"} groupBy={"priority"}/>
+            <Column Loading={Loading} list={Priority1} title={"Low"} groupBy={"priority"}/>
+            <Column Loading={Loading} list={Priority0} title={"No Priority"} groupBy={"priority"}/>
         </div>
     )
 }

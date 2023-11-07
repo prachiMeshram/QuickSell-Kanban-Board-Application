@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import React from "react";
 import './group.scss'
-import GroupContainer from "./groupContainer/groupContainer";
+import Column from "./column/column";
 
 
 
@@ -74,11 +74,11 @@ function GroupbyStatus({ticketData=[],orderby}){
 
     return(
         <div className="Groups-Container">
-            <GroupContainer Loading={Loading} list={BackLog} title={"Backlog"}/>
-            <GroupContainer Loading={Loading} list={Todo} title={"ToDo"}/>
-            <GroupContainer Loading={Loading} list={Inprog} title={"In Progress"}/>
-            <GroupContainer Loading={Loading} list={Done} title={"Done"}/>
-            <GroupContainer Loading={Loading} list={Cancel} title={"Cancelled"}/>
+            <Column Loading={Loading} list={BackLog} title={"Backlog"} groupBy={"status"}/>
+            <Column Loading={Loading} list={Todo} title={"ToDo"} groupBy={"status"}/>
+            <Column Loading={Loading} list={Inprog} title={"In Progress"} groupBy={"status"}/>
+            <Column Loading={Loading} list={Done} title={"Done"} groupBy={"status"}/>
+            <Column Loading={Loading} list={Cancel} title={"Cancelled"} groupBy={"status"}/>
         </div>
     )
 }
