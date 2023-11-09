@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Kanban-Board-Application (Quicksell-Frontend-Assesment) 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Getting Started with the Application
 
-## Available Scripts
+link to the deployed app (https://prachimeshram.github.io/QuickSell-Kanban-Board-Application/)
 
-In the project directory, you can run:
+INSTRUCTIONS
 
-### `npm start`
+clone the repository using the command 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  `git clone https://github.com/prachiMeshram/QuickSell-Kanban-Board-Application.git`
+  
+Navigate to project folder by running
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  `cd .\QuickSell-Kanban-Board-Application\`
+  
+To install required npm packages run 
 
-### `npm test`
+`npm install`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To start the application on localhost use
 
-### `npm run build`
+  `npm start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The project is organized into the following major directories:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+build: Contains the production-ready code of the project.
 
-### `npm run eject`
+public: Contains the index.html file and the project logo (logo.png).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+src: Contains the frontend code for the project.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+assets: Contains all the icons used throughout the project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+components: Contains reusable UI components, such as column and headers.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ui-elements: Contains individual UI element card.
 
-## Learn More
+App.js: The entry point for the frontend code. It is called from the index.js file.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+App.scss: Contains the styling for the App.js file.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+index.js: The root file of the project that is called from the index.html file.
 
-### Code Splitting
+index.css: Contains global styles for the project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+.gitignore: Specifies files and directories that should not be tracked by Git.
 
-### Analyzing the Bundle Size
+package.json: Contains project metadata, including React scripts, npm packages, dependencies, and project name.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+README.md: Provides instructions on how to run the project and documentation for the project.
 
-### Making a Progressive Web App
+SCSS Styling Files
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The project utilizes SCSS files for styling instead of CSS files. SCSS offers better code organization and easier variable management.
